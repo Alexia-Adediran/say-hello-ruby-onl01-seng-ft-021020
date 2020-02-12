@@ -1,8 +1,8 @@
-def greeting (name = "Kent Beck")
-  puts "Hello, #{name}"
+def say_hello (name)
+  puts "Hello Kent Beck"
 end
 
-def greeting (name = "Ruby Programmer")
-  puts "Hello, #{name}"
+def say_hello (name = "Ruby Programmer!")
+  puts ("Hello, #{name}!")
 end
   
